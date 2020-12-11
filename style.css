@@ -161,8 +161,7 @@ nav ul li {
 	}
 	.img-4 {
 		background-image: url(./images/dee.png);
-		background-size: cover;
-		background-position: 50% 100%;
+
 		grid-column: 5 / span 1;
 		grid-row: 1;
 	}
