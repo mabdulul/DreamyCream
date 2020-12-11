@@ -103,6 +103,7 @@ nav ul li {
 }
 .img-3 {
 	background-image: url(./images/Veganice.png);
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #ec99ad;
@@ -154,8 +155,7 @@ nav ul li {
 	}
 	.img-3 {
 		background-image: url(./images/Veganice.png);
-		background-size: cover;
-		background-position: 50% 70%;
+
 		grid-column: 4 / span 1;
 		grid-row: 1;
 	}
