@@ -110,8 +110,9 @@ nav ul li {
 .img-4 {
 	background-image: url(./images/dee.png);
 
-	background-position: bottom;
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .img-5 {
