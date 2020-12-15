@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  color: black !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.btn-color {
+  background-color: #ffc55f !important;
+  color: white !important;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav ul {
+  padding-inline-start: 0px;
+}
+nav ul li:first-of-type {
+  padding-left: 20px;
+}
+nav ul li {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem;
+  font-size: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+  nav ul li:first-of-type {
+    padding-left: 0px;
+  }
+}
+header .nav__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 8px;
+  margin-top: 25px;
+  color: #ffa5cb;
+}
+header .nav__title h1 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.collage {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 250px);
+}
+.collage .collage__img-1 {
+  background-image: url(./images/VeganMenu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #d0c3f1;
+  grid-column: 1/span 2;
+  grid-row: 1/span 2;
+}
+.collage .collage__img-2 {
+  background-image: url(./images/dark.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+}
+.collage .collage__img-3 {
+  background-image: url(./images/Veganice.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ec99ad;
+}
+.collage .collage__img-4 {
+  background-image: url(./images/dee.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.collage .collage__img-5 {
+  background-image: url(./images/eatingcream.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.collage .collage__img-6 {
+  background-image: url(./images/peaches.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 991.98px) {
+  .collage {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 250px);
+  }
+  .collage .collage__img-1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #d0c3f1;
+    grid-column: 1/3;
+    grid-row: 1/span 2;
+  }
+  .collage .collage__img-2 {
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/span 1;
+    grid-row: 1;
+    background-position: bottom;
+  }
+  .collage .collage__img-3 {
+    grid-column: 4/span 1;
+    grid-row: 1;
+  }
+  .collage .collage__img-4 {
+    background-image: url(./images/dee.png);
+    grid-column: 5/span 1;
+    grid-row: 1;
+  }
+  .collage .collage__img-5 {
+    background-size: cover;
+    background-position: center;
+    grid-column: 3/span 1;
+    grid-row: 2;
+  }
+  .collage .collage__img-6 {
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/span 2;
+    grid-row: 2;
+  }
+}
+.features {
+  margin-top: 60px;
+}
+.features .features__img {
+  display: flex;
+}
+.features .features__img div {
+  margin: 40px;
+}
+.features .features__text {
+  margin-top: 15%;
+}
+.features .features__text h3 {
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+  width: 300px;
+}
+
+.bg {
+  background-color: #ffa5cb;
+  margin-top: 60px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+.footer .footer--logo {
+  font-family: "Sacramento", cursive;
+}
+.footer ul li {
+  padding: 10px 0px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.footer ul li a {
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+  }
+  .footer .footer--logo {
+    padding-left: 5%;
+  }
+  .footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=test.css.map */
