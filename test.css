@@ -61,6 +61,7 @@ header .nav__title {
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 8px;
   margin-top: 25px;
+  text-transform: uppercase;
   color: #ffa5cb;
 }
 header .nav__title h1 {
