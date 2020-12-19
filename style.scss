@@ -31,10 +31,6 @@ nav {
 	ul {
 		padding-inline-start: 0px;
 
-		li:first-of-type {
-			padding-left: 20px;
-		}
-
 		li {
 			text-decoration: none;
 			color: black;
@@ -48,15 +44,32 @@ nav {
 			}
 		}
 	}
+	.shopping-cart {
+		padding: 0px 1rem;
+	}
 }
 
 @media (min-width: 768px) {
+	.shopping-cart {
+		position: relative;
+		top: 6px;
+	}
 }
 
 @media (min-width: 1200px) {
 	nav ul {
 		li:first-of-type {
 			padding-left: 0px;
+		}
+	}
+	.nav-links {
+		position: relative;
+		width: 100%;
+
+		.shopping-cart {
+			padding-left: 5%;
+			position: absolute;
+			right: 0px;
 		}
 	}
 }
@@ -178,6 +191,10 @@ header {
 .features {
 	margin-top: 60px;
 
+	.features--two {
+		flex-direction: column-reverse;
+	}
+
 	.features__img {
 		display: flex;
 
@@ -191,6 +208,13 @@ header {
 			margin-bottom: 20px;
 			letter-spacing: 0.1em;
 			width: 300px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.features {
+		.features--two {
+			flex-direction: inherit;
 		}
 	}
 }

@@ -35,6 +35,9 @@ body {
 nav ul {
   padding-inline-start: 0px;
 }
+nav ul li:first-of-type {
+  padding-left: 20px;
+}
 nav ul li {
   text-decoration: none;
   color: black;
@@ -46,29 +49,10 @@ nav ul li {
 nav ul li a {
   text-transform: uppercase;
 }
-nav .shopping-cart {
-  padding: 0px 1rem;
-}
 
-@media (min-width: 768px) {
-  .shopping-cart {
-    position: relative;
-    top: 6px;
-  }
-}
 @media (min-width: 1200px) {
   nav ul li:first-of-type {
     padding-left: 0px;
-  }
-
-  .nav-links {
-    position: relative;
-    width: 100%;
-  }
-  .nav-links .shopping-cart {
-    padding-left: 5%;
-    position: absolute;
-    right: 0px;
   }
 }
 header .nav__title {
@@ -177,9 +161,6 @@ header .nav__title h1 {
 .features {
   margin-top: 60px;
 }
-.features .features--two {
-  flex-direction: column-reverse;
-}
 .features .features__img {
   display: flex;
 }
@@ -195,11 +176,6 @@ header .nav__title h1 {
   width: 300px;
 }
 
-@media (min-width: 768px) {
-  .features .features--two {
-    flex-direction: inherit;
-  }
-}
 .bg {
   background-color: #ffa5cb;
   margin-top: 60px;
@@ -238,4 +214,4 @@ header .nav__title h1 {
   }
 }
 
-/*# sourceMappingURL=test.css.map */
+/*# sourceMappingURL=test.css%5E.map */
