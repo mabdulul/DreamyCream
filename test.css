@@ -66,8 +66,9 @@ nav .shopping-cart {
     width: 100%;
   }
   .nav-links .shopping-cart {
-    padding-left: 5%;
+    padding-right: 5%;
     position: absolute;
+    top: 13px;
     right: 0px;
   }
 }
